@@ -16,6 +16,7 @@ export class AppComponent implements OnInit {
       },
       error: (err) => {
         console.log('Error occured ');
+        
       },
     });
 
