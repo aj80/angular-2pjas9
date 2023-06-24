@@ -12,7 +12,7 @@ export class AppComponent implements OnInit {
   ngOnInit() {
     of(100, 20, 30).subscribe({
       next: (item) => {
-        console.log('new item is ', item);
+        console.log('new item is yyy', item);
       },
       error: (err) => {
         console.log('Error occured ');
